@@ -36,9 +36,9 @@ while cont == True: #cont is continue the program
     choice = input().lower()
     temp = input("Enter a temperature: ")
     if choice == 'f':
-        print(f"{float(celsius_to_fahrenheit(temp))} °F")
+        print(f"{int(celsius_to_fahrenheit(temp))} °F")
     elif choice == 'c':
-        print(f"{float(fahrenheit_to_celsius(temp))} °C")
+        print(f"{int(fahrenheit_to_celsius(temp))} °C")
     else:
         print("Invalid choice.")
     answer = input("Do you wish to continue? y/n").lower()
