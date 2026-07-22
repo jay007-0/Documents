@@ -41,4 +41,4 @@ for day in range(1,6):
 if price_history[0] > price_history[-1]:
     print(f"You lost ${(price_history[0] - price_history[-1]):.2f}!")
 else:
-    print(f"You made ${(price_history[-1] - price_history[0]): .2f}!")
+    print(f"You made ${(price_history[-1] - price_history[0]):.2f}!")
